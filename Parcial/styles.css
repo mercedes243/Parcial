@@ -1,0 +1,128 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #004aad;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo img {
+    height: 100px;
+   
+}
+
+.company-info h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.company-info p {
+    margin: 0;
+    font-size: 16px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-left: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0px;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.gallery img {
+    max-width: 30%;
+    height: auto;
+}
+
+.fleet .gallery div img {
+    max-width: 100%;
+}
+
+.fleet .gallery div {
+    text-align: center;
+}
+
+.testimonials blockquote {
+    background-color: #000000;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.testimonials cite {
+    font-style: italic;
+}
+
+footer {
+    background-color: #5de0e6;
+    color: #060606;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer h3 {
+    margin: 0 0 10px 0;
+    font-size: 18px;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer li {
+    margin-bottom: 5px;
+}
+
+footer a {
+    color: #060606;
+    text-decoration: none;
+}
+
+.fleet .gallery div img {
+    max-width: 100%;
+}
+
+.fleet .gallery {
+    gap: 50px;
+}
